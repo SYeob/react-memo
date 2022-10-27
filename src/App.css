@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+div {
+  box-sizing: border-box;
+}
+.list {
+  text-align: left;
+  padding-left: 20px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
+}
+.publish {
+  width: 80%;
+  height: 25px;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: 1px solid grey;
+  background: #eee;
+  margin-top: 7px;
+}
+.updateList {
+  padding: 15px 28px;
+  background: rgb(16, 85, 204);
+  color: white;
+  position: relative;
+  top: -2px;
+  left: 10px;
+}
+.updateList:hover {
+  background: rgb(10, 51, 145);
+  color: white;
+  transition: all 0.5s;
+  transform: scale(1.05);
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.deleteBtn {
+  height: 100%;
+  width: 100px;
+  color: white;
+  background: rgb(247, 65, 65);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.deleteBtn:hover {
+  background: rgb(173, 0, 0);
+}
+.black-nav {
+  display: flex;
+  background: linear-gradient(rgb(80, 80, 80), rgb(84, 84, 84));
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
